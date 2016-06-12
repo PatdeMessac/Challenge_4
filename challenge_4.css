@@ -1,16 +1,16 @@
 
 
 .container-fluid{
-  padding : 0 !important;
+	padding :0;
   }
 
 footer{
+  background-color: #EEEEEE;
+}
 
-  background-color: #EEEEEE;}
-
-h3, p {text-align: center;}
-
-section h3 {color: white;}
+h3, p {color : black;
+	text-align: center;
+}
 
 .tiret{
   margin : auto;
@@ -28,10 +28,9 @@ section{
 
 .photos{
   width:100%;}
+
 /*bouton action :*/
-
-
-  .D  {
+.D  {
     color : black;
     font-size: 15px;
     margin : auto;
@@ -40,15 +39,23 @@ section{
     height : 40px;
     background-color: lightgrey;
     border-radius: 25px;
-
-    /*margin-top: 12px;*/
     text-decoration: none;
-  /*text-transform: uppercase;*/
-}
+ }
 
-a {
+.D h3{
   color: black;
   text-decoration: none;
+}
+.D p
+{
+  color: black;
+  text-decoration: none;
+}
+
+h4 {
+	margin: auto;
+	padding-top: 10px;
+	text-align: center;
 }
 
 .mel{color: red;}
