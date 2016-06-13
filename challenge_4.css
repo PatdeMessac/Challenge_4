@@ -27,6 +27,13 @@ h3, p {color : black;
   overflow: hidden; /* Empêche le dépassement des flottants. */
 }
 
+a:hover { 
+color:red;
+text-decoration:none;
+background-image:url(images/gris_anim.gif);
+background-repeat:no-repeat;
+}
+
 /*bouton action :*/
 .D  {
     color : black;
